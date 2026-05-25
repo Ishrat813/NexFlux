@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXFLUX | Helping Brands Grow Online</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="preloader-bg-glow"></div>
+        <div class="preloader-content">
+            <div class="logo-wrapper">
+                <img src="image.png" alt="NEXFLUX Logo" class="preloader-logo">
+            </div>
+            <div class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+            <div class="loading-text">INITIALIZING DIGITAL ECOSYSTEM</div>
+        </div>
+    </div>
+
+    <canvas id="particleCanvas"></canvas>
+
+    <a href="https://wa.me/917891798360" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip-text">Chat with us</span>
+    </a>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="home" class="nav-brand route-link">
+                <img src="image.png" alt="NEXFLUX Logo" class="nav-logo">
+                <span class="brand-name">NEXFLUX</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="home" class="nav-link route-link active">Home</a></li>
+                <li><a href="about" class="nav-link route-link">About</a></li>
+                <li><a href="services" class="nav-link route-link">Services</a></li>
+                <li><a href="portfolio" class="nav-link route-link">Portfolio</a></li>
+                <li><a href="pricing" class="nav-link route-link">Pricing</a></li>
+                <li><a href="blog" class="nav-link route-link">Blog</a></li>
+                <li><a href="contact" class="nav-link route-link">Contact</a></li>
+                <li><a href="booking" class="nav-btn-link route-link">Book Consult</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-moon icon-dark"></i>
+                    <i class="fas fa-sun icon-light"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="app-router">
+        </main>
+
+    <footer class="premium-footer">
+        <div class="footer-glow"></div>
+        <div class="footer-container">
+            <div class="footer-brand-section">
+                <img src="image.png" alt="NEXFLUX Logo" class="footer-logo">
+                <p class="footer-tagline">Helping brands grow online. We engineer ultra-high performance digital products and cinematic brand assets for hyper-growth enterprises.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/nexflux.studio/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ishrat-nisa-358664365" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://ishrat813.github.io/Portfolio-/" target="_blank" rel="noopener" aria-label="Portfolio"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="home" class="route-link">Home</a></li>
+                        <li><a href="about" class="route-link">About Agency</a></li>
+                        <li><a href="services" class="route-link">All Services</a></li>
+                        <li><a href="portfolio" class="route-link">Case Studies</a></li>
+                        <li><a href="pricing" class="route-link">Our Rates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Deep-Dive Services</h4>
+                    <ul>
+                        <li><a href="service-detail/web-dev" class="route-link">Web Development</a></li>
+                        <li><a href="service-detail/smm" class="route-link">Social Media Growth</a></li>
+                        <li><a href="service-detail/graphic" class="route-link">Design &amp; Branding</a></li>
+                        <li><a href="service-detail/seo-ads" class="route-link">SEO &amp; Ads Strategy</a></li>
+                        <li><a href="service-detail/video" class="route-link">Cinematic Video Editing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect with Us</h4>
+                    <p class="contact-info-item"><i class="fas fa-envelope"></i> nexfluxstudio26@gmail.com</p>
+                    <p class="contact-info-item"><i class="fas fa-phone-alt"></i> +91 7891798360</p>
+                    <p class="contact-info-item"><i class="fas fa-map-marker-alt"></i> Global Operations | India</p>
+                    <a href="booking" class="route-link footer-cta-inline">Initiate Direct Brief <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NEXFLUX Studio. All Rights Reserved. Designed for Next-Generation Digital Experiences.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
